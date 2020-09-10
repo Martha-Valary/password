@@ -13,8 +13,8 @@ class User:
         method that defines the properties of a user.
         """
         self.username = username
-        self.fname = firstname
-        self.lname = lastname
+        self.fname = fname
+        self.lname = lname
         self.password = password
 
     def save_user(self):
